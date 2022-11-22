@@ -86,6 +86,8 @@ cd nodejs-aws-codedeploy-pipeline
 ```
 
 ```sh
+nvm uninstall 0.39,1
+nvm install 16.0.0 
 npm install
 ```
 
