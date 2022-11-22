@@ -1,9 +1,9 @@
 const express = require('express');
 const app = express();
-const hostname = '13.233.76.66'; // Your server ip address
+const hostname = '127.0.0.1'; // Your server ip address
 const port = 3000;
 
-const version = '11:43';
+const version = '1222222';
 
 app.get('/', (req, res) => {
     // set response content    
