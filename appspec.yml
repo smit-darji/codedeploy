@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /Smit/smit1
+  - source: /
     destination: /home/ec2-user/nodejs-aws-codedeploy-pipeline
 hooks:
 # ApplicationStop:
@@ -20,4 +20,3 @@ hooks:
       timeout: 300
       runas: root
 # ValidateService:
-
