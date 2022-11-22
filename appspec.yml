@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: scripts/application_start.sh
+  - source: /Smit/smit1
     destination: /home/ec2-user/nodejs-aws-codedeploy-pipeline
 hooks:
 # ApplicationStop:
