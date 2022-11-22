@@ -145,5 +145,5 @@ sudo service codedeploy-agent start
 ```
 
 ### 10. create Role: 15:54
-1. awsEc2CodeDeploy
-2. AWScodeDeployRole
+1. awsEc2CodeDeploy  : punit-ec2-codedeploy-role
+2. AWScodeDeployRole : SahilCodeDeployServiceRole
