@@ -114,7 +114,7 @@ sudo ln -s "$(which pm2)" /sbin/pm2
 
 ### 8 Starting the app as sudo (Run nodejs in background and when server restart)
 ```sh
-sudo pm2 start app.js --name=nodejs-express-app
+sudo pm2 start app.js --name=punit-test-app
 ```
 ```sh
 sudo pm2 save     # saves the running processes
